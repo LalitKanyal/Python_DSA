@@ -1,0 +1,14 @@
+# Lists
+fruit = ["apples", "oranges", "grapes"]
+
+inventory = [ ["Tata", 10], ["Corvette", 1], ["Toyota", 4]]
+
+
+# access elements
+
+Tatas = inventory[0]
+Tata_count = Tatas[1]
+# in one single line
+Tatas_count = inventory[0][1]
+print(Tatas)
+print(Tatas_count)
