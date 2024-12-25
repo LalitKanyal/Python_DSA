@@ -4,13 +4,13 @@ Triple Sum Calculator
 Write a Python program to calculate the sum of three given numbers. If the values are equal, return three times their sum.
 '''
 
-def sum(a, b, c):
-    add = a + b + c
-    
-    if a == b == c:
-       add = add*3
-    
-    return add
-        
-print(sum(1,2,3))
-print(sum(1,1,1))
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+c = int(input("Enter value of c: "))
+
+if a == b == c:
+    sum = (a + b + c) * 3
+    print(sum)
+else:
+    sum = a + b + c
+    print(sum)
